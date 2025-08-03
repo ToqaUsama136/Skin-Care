@@ -1,4 +1,4 @@
-import logo2 from "../../assets/logo2.png";
+import logo2 from "/assets/logo2.png";
 const Footer = () => {
   return (
     <div className="  h-[413px] py-[50px] bg-[#121212] text-white font-jakarta">

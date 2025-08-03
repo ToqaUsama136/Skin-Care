@@ -1,5 +1,5 @@
   import {ArrowRightCircleIcon } from '@heroicons/react/24/outline'
-  import face2 from '../../assets/face2.png';
+  import face2 from '/assets/face2.png';
 const OfferAndGuide = () => {
 
     return (

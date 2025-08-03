@@ -3,9 +3,10 @@ import {useEffect,useState  } from "react";
 const Testimonials = () => {
    const[Testimonials,setTestimonials]=useState([]);
    useEffect(() => {
-    fetch("../../../data.json")
+    fetch("public/data.json")
       .then((res) => res.json())
-      .then((data) => setTestimonials(data.testimonials));
+      .then((data) =>
+        setTestimonials(data.testimonials));
   }, []);
     return (
         <div className="relative flex  justify-center   py-[50px]">

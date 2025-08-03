@@ -9,7 +9,7 @@ const Navbar = () => {
          <header className="relative flex items-center justify-center pt-[10px] ">
             <div className="relative flex justify-between w-[1280px] h-[60px]">
                 <div className="flex items-center ">
-                <img className="w-[53px] h-[57px] pt-[2px] pl-[3px]" src="./src/assets/logo.png" alt="logo"/>
+                <img className="w-[53px] h-[57px] pt-[2px] pl-[3px]" src="assets/logo.png" alt="logo"/>
                 <p className="font-playfair text-[49px] lineading-[98%] tracking-[-.06rem]  ml-[-10px] ">tra<span className="font-jakarta  tracking-[-6%] ">g</span>
                 <span className="font-jakarta ">leam</span></p></div>
                 <nav className=" flex space-x-[32px] font-poppins  text-[25px]  ">

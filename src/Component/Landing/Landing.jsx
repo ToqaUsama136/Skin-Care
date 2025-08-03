@@ -1,9 +1,9 @@
 
-import SkinCare from "../../assets/SkinCare.png";
-import face from "../../assets/face.png";
+import SkinCare from "/assets/SkinCare.png";
+import face from "/assets/face.png";
 import {ArrowRightCircleIcon} from "@heroicons/react/24/outline";
 import { ArrowUpRightIcon}   from "@heroicons/react/24/outline";
-import logo from "../../assets/logo.png"
+import logo from "/assets/logo.png"
 
 
 const Landing = () => {
@@ -21,10 +21,10 @@ const Landing = () => {
             <div className="flex flex-col w-1/2 h-[128.5px] pt-[106px] pl-[60px]">
               <div className="text-[60px] font-poppins ">
                 <p>Glow Beyond
-                 <div className="relative w-[45px] h-[45px] inline-block ml-5">
+                 <span className="relative w-[45px] h-[45px] inline-block ml-5">
                   < ArrowUpRightIcon  strokeWidth={2}/>
                   <span className="absolute left-0 right-0 -bottom-1 h-[1px] border  bg-black"></span>
-                </div> </p>
+                </span> </p>
                <p className="pl-[240px] mt-[-30px]"> Expectations</p>
               </div>
               <p className="font-poppins text-[30px] font-light ">

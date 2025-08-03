@@ -5,7 +5,7 @@ import Discover from './Component/Discover/Discover'
 import Testimonials from "./Component/Testimonials/Testimonials"
 import OfferAndGuide from './Component/OfferAndGuide/OfferAndGuide'
 import Footer from './Component/Footer/Footer'
-import './App.css'
+
 
 function App() {
   

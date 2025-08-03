@@ -1,11 +1,11 @@
-import {  StarIcon } from "@heroicons/react/24/solid";
+
 import { HeartIcon } from "@heroicons/react/24/outline";
 import { useEffect,useState } from "react";
 const Discover = () => {
     const [products, setProducts] = useState([]);
 
     useEffect(()=>{
-        fetch("../../../data.json")
+        fetch("public/data.json")
         .then(res => res.json())
         .then(data => setProducts(data.Products))
     },[]);

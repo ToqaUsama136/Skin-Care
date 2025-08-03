@@ -6,7 +6,7 @@
     "oldPrice": "₦35,000",
     "price": "₦30,000",
     "tag": "Best Seller",
-    "image": "./src/assets/skin3.png"
+    "image": "public/assets/skin3.png"
   },
    {
     "id": 2,
@@ -14,7 +14,7 @@
     "oldPrice": "₦75,000",
     "price": "₦60,000",
     "tag": "Refined",
-    "image": "./src/assets/AhaFace.png"
+    "image": "public/assets/AhaFace.png"
   },
    {
     "id": 3,
@@ -22,7 +22,7 @@
     "oldPrice": "₦75,000",
     "price": "₦70,000",
     "tag": "Top",
-    "image": "./src/assets/skin2.png"
+    "image": "public/assets/skin2.png"
   },
    {
     "id": 4,
@@ -30,7 +30,7 @@
     "oldPrice": "₦35,000",
     "price": "₦30,000",
     "tag": "Best Seller",
-    "image": "./src/assets/AcneSerum.png"
+    "image": "public/assets/AcneSerum.png"
   },
    {
     "id": 5,
@@ -38,7 +38,7 @@
     "oldPrice": "₦35,000",
     "price": "₦30,000",
     "tag": "Best Seller",
-    "image": "./src/assets/Skin1.png"
+    "image": "public/assets/Skin1.png"
   },
    {
     "id": 6,
@@ -46,49 +46,49 @@
     "oldPrice": "₦35,000",
     "price": "₦30,000",
     "tag": "Best Seller",
-    "image": "./src/assets/skinglow.png"
+    "image": "public/assets/skinglow.png"
   }
   ],
   
   "testimonials": [
     {
       "id": 1,
-      "image": "./src/assets/test6.jpg",
+      "image": "public/assets/test6.jpg",
       "title": "2 weeks of using Glow Serum",
       "message": "After 2 weeks of using Xtragleam,my skin has never felt smoother. Thank you",
       "author": "!” _Lisa, Verified Buyer"
     },
     {
       "id": 2,
-      "image":"./src/assets/test2.jpg",
+      "image":"public/assets/test2.jpg",
       "title": "More Confident",
       "message": "I’ve struggled with acne for years, but Xtragleam changed everything! My skin is glowing, and I’ve never felt more confident.",
       "author": "” -Sarah A., Verified Buyer"
     },
     {
       "id": 3,
-      "image": "./src/assets/test3.jpg",
+      "image": "public/assets/test3.jpg",
       "title": "Game Changer",
       "message": "The Glow Serum is a game-changer. My dark spots faded within weeks, and my skin feels so hydrated",
       "author": "!” _Emma L., Verified Buyer"
     },
     {
       "id": 4,
-      "image":"./src/assets/test4.jpg",
+      "image":"public/assets/test4.jpg",
       "title": "Dermatologist Recommendation",
       "message": "As a dermatologist, I recommend Xtragleam to my clients for its effective, natural ingredients.",
       "author": "” -Dr. Jane O., Dermatologist"
     },
     {
       "id": 5,
-      "image":"./src/assets/test5.jpg",
+      "image":"public/assets/test5.jpg",
       "title": "More Confident",
       "message": "I’ve struggled with acne for years, but Xtragleam changed everything! My skin is glowing, and I’ve never felt more confident.",
       "author": "” -Sarah A., Verified Buyer"
     },
     {
       "id": 6,
-      "image":"./src/assets/test6.jpg",
+      "image":"public/assets/test6.jpg",
       "title": "Beauty Influencer",
       "message": "Xtragleam is my go-to for glowing skin before events",
       "author": "!” -SkincareGuru, Beauty Influencer"
