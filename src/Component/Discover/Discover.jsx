@@ -5,7 +5,7 @@ const Discover = () => {
     const [products, setProducts] = useState([]);
 
     useEffect(()=>{
-        fetch("public/data.json")
+        fetch("data.json")
         .then(res => res.json())
         .then(data => setProducts(data.Products))
     },[]);
