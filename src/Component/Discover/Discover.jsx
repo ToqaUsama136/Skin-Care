@@ -1,5 +1,5 @@
 
-import { HeartIcon } from "@heroicons/react/24/outline";
+import { HeartIcon ,ShoppingBagIcon} from "@heroicons/react/24/outline";
 import { useEffect,useState } from "react";
 const Discover = () => {
     const [products, setProducts] = useState([]);
@@ -10,17 +10,20 @@ const Discover = () => {
         .then(data => setProducts(data.Products))
     },[]);
     return (
-        <div className="relative flex items-center justify-center  py-[50px]">
-         <div className='  w-full max-w-[1280px] h-[947px]  py-[10px]'>
-            <div className="flex flex-col md:flex-row md:items-center md:justify-between h-[50px] py-[55px]">
-                <h2 className="w-[556px] font-poppins font-normal leading-[100%] tracking-[-1%] text-[50px]">Discover Our Best-Sellers</h2>
-                <button className=" font-poppins font-light leading-[100%] tracking-[-1%] text-[30px] underline underline-offset-6 decoration-1 " >View All</button>
+        <div className="relative flex items-center justify-center   py-[50px]">
+         <div className='  w-full max-w-[1280px]  
+           '>
+            <div className="flex  md:flex-row items-center justify-between h-[50px] md:py-[55px] 
+            ">
+                <h2 className=" font-poppins font-normal leading-[100%] tracking-[-1%] text-[24px] md:text-[50px] md:ml-0  ml-[40px]">Discover Our Best-Sellers</h2>
+                <button className=" font-poppins font-light leading-[100%] tracking-[-1%] text-[20px] md:text-[30px] underline underline-offset-6 decoration-1 md:mr-0  mr-[40px]" >View all</button>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3   gap-[17px]">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3   gap-[17px] ">
                 {products.map((product) => (
-                    <div className="relative w-[415px] h-[415px] border border-[#F0F0F0] rounded-[10px] bg-[#F0F0F0] " key={product.id}>
-                    <div className="absolute w-[375px] h-[45px] top-[35px] left-[20px] gap-[240px]  flex justify-between">
+                    <div className="relative w-[415px] h-[415px] mx-auto border border-[#F0F0F0] rounded-[10px] bg-[#F0F0F0] " key={product.id}>
+
+                    <div className="absolute w-[375px] h-[45px] top-[35px] left-[20px] gap-[240px]  flex  ">
                     <p className="w-[95px] h-[19px]  font-normal text-[20px] leading-[98%] tracking-[-1%] font-poppins ">{product.tag}</p>
                 
                     <p className="w-[95px] h-[15px] text-[#FAAA4C] font-light text-[20px]  font-poppins absolute left-[1px] bottom-[10px]">★★★★★</p>
@@ -37,7 +40,8 @@ const Discover = () => {
                          <span className="font-normal font-poppins text-[16px]" >{product.price}</span>
 
                          </div>
-                         <button className="w-[137px] h-[40px] absolute top-[32px] right-[20px] bg-[#121212] px-[10px] py-[5px] rounded-[40px] text-white font-poppins font-normal leading-[100%] tracking-[-1%] text-[16px] ">Add to Cart</button>
+                         <button className="w-[137px] h-[40px] flex items-center gap-1 absolute top-[32px] right-[20px] bg-[#121212] px-[10px] py-[5px]  rounded-[40px] text-white font-poppins font-normal leading-[100%] tracking-[-1%] text-[16px] ">Add to Cart
+                            <ShoppingBagIcon strokeWidth={1} className="w-[25px] h-[25px]   rotate-[-0.04deg] text-white" /></button>
                     </div>
                     
                     </div>
