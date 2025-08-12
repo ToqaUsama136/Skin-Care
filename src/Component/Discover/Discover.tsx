@@ -1,8 +1,20 @@
 
+
 import { HeartIcon ,ShoppingBagIcon} from "@heroicons/react/24/outline";
 import { useEffect,useState } from "react";
+
+
+interface Product {
+    id: number ;
+    tag: string;
+    image: string;
+    name: string;
+    title: string;
+    oldPrice: string;
+    price: string;
+  }
 const Discover = () => {
-    const [products, setProducts] = useState([]);
+    const [products, setProducts] = useState<Product[]>([]);
 
     useEffect(()=>{
         fetch("data.json")

@@ -1,7 +1,14 @@
 import {useEffect,useState  } from "react";
 
+interface TestimonialItem {
+  id: number;
+  image: string;
+  title: string;
+  message: string;
+  author: string;
+}
 const Testimonials = () => {
-   const[Testimonials,setTestimonials]=useState([]);
+   const[Testimonials,setTestimonials]=useState<TestimonialItem[]>([]);
    useEffect(() => {
     fetch("data.json")
       .then((res) => res.json())

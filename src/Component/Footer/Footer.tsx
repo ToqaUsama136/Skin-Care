@@ -17,6 +17,7 @@ const Footer = () => {
           </p>
           <div className="relative flex  w-full md:w-[285px]  h-[43px] rounded-[5px] bg-[#E9E9E9] p-[10px]  ">
             <input
+              id="email"
               type="email"
               placeholder="Email"
               className="flex-1 text-[#8A8A8A]  text-[16px]"
