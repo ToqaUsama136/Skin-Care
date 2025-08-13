@@ -7,10 +7,10 @@ const Navbar = () => {
     return (  
    <div>
          <header className=" flex fixed top-0 z-50 w-full md:relative items-center justify-center py-[22px]  md:pb-0 md:pt-[10px] bg-[#ffffff]">
-            <div className="relative flex justify-between w-full max-w-[1280px] h-[60px] px-[20px]   md:px-0">
+            <div className="relative flex justify-between w-full md:w-[1280px] h-[60px] px-[20px]   md:px-0">
                 <div className="flex items-center ">
-                <img className="w-[53px] h-[57px] pt-[2px] pl-[3px]" src="assets/logo.png" alt="logo"/>
-                <p className="font-playfair text-[49px] lineading-[98%] tracking-[-.06rem]  ml-[-10px] ">tra<span className="font-jakarta  tracking-[-6%] ">g</span>
+                <img className=" w-[39px] h-[42px] md:w-[53px] md:h-[57px] pt-[2px] pl-[3px]" src="assets/logo.png" alt="logo"/>
+                <p className="font-playfair text-[36px] md:text-[49px] lineading-[98%] tracking-[-.06rem]  ml-[-10px] ">tra<span className="font-jakarta  tracking-[-6%] ">g</span>
                 <span className="font-jakarta ">leam</span></p></div>
                 <nav className="hidden  md:flex space-x-[32px] font-poppins  text-[25px]  ">
                 <a href="#" className="underline underline-offset-4 text-[#2E2E2E] ">
@@ -26,9 +26,9 @@ const Navbar = () => {
                     <HeartIcon strokeWidth={1} />
                     <UserIcon  strokeWidth={1}/>
                 </div>
-            <div className="flex flex-col gap-1 md:hidden  mt-[20px]">
+             <div className="flex flex-col gap-1 md:hidden  mt-[20px]">
               <Squares2X2Icon strokeWidth={1}  className=" w-[40] h-[40px] text-[#121212]"/>
-            </div>
+            </div> 
             </div>
        
          </header>

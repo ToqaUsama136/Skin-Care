@@ -2,7 +2,7 @@ import logo2 from "/assets/logo2.png";
 const Footer = () => {
   return (
     <div className="   py-[50px] bg-[#121212] text-white font-jakarta">
-      <div className="container mx-auto flex flex-col md:flex-row justify-between gap-[40px] md:gap-[114px] w-full md:w-[1085.5px]  pt-[9px] px-[50px] md:px-0">
+      <div className="container mx-auto flex flex-col md:flex-row justify-between gap-[40px] md:gap-[114px]  md:w-[1085.5px]  pt-[9px] px-[50px] md:px-0">
         <div className="flex  md:w-[25%]  flex-row  items-center  justify-center md:justify-start w-full md:text-left md:pb-[128px]  md:pt-0 ">
       <img src={logo2} alt="logo" className=" pt-[2px] pl-[3px]" />
 
