@@ -10,13 +10,16 @@ interface TestimonialItem {
 const Testimonials = () => {
    const[Testimonials,setTestimonials]=useState<TestimonialItem[]>([]);
    useEffect(() => {
-    fetch("data.json")
-      .then((res) => res.json())
-      .then((data) =>
-        setTestimonials(data.testimonials));
+    const fetchData = async () =>{
+      const res = await fetch("data.json")
+      const data = await res.json();
+      setTestimonials(data.Products);
+     }
+     fetchData();
+    
   }, []);
     return (
-        <div className="relative flex  justify-center   py-[50px] px-4  ">
+        <section className="relative flex  justify-center   py-[50px] px-4  ">
         <div className="relative   w-full md:w-[1280px] md:h-[1044px] bg-[#F0F0F0] pr-3 md:px-3 md:pr-2 overflow-hidden ">
 
          <div className="w-full md:w-[1237px] md:h-[927px] pt-[60px] pl-[22px]  ">
@@ -53,7 +56,7 @@ const Testimonials = () => {
         </div>
   </div>
   </div>
-        </div>
+        </section>
          );
 }
  
