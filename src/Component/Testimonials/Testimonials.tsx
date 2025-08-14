@@ -13,10 +13,10 @@ const Testimonials = () => {
     const fetchData = async () =>{
       const res = await fetch("data.json")
       const data = await res.json();
-      setTestimonials(data.Products);
+      setTestimonials(data.testimonials);
      }
      fetchData();
-    
+  
   }, []);
     return (
         <section className="relative flex  justify-center   py-[50px] px-4  ">
